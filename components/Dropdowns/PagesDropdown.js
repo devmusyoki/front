@@ -80,7 +80,7 @@ const PagesDropdown = () => {
           <div className="h-0 mx-4 my-2 border border-solid border-gray-200" />
         
           <a
-            href="/products/Iot"
+            href="/products/Custom"
             className={
               "text-sm py-2 px-4 font-normal block w-full whitespace-no-wrap bg-transparent text-gray-800"
             }
