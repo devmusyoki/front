@@ -8,9 +8,9 @@ export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="top-0 fixed bg-blue-300 z-50 w-full flex  flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+      <nav className=" top-0 fixed bg-blue-300 z-50 w-full flex  flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+          <div className="w-full relative flex justify-between sm:w-auto md:w-auto lg:w-auto lg:static lg:block lg:justify-start">
             
               <a
                 className="text-black text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
@@ -78,17 +78,7 @@ export default function Navbar(props) {
                 </a>
               </li>
 
-              <li className="flex items-center">
-                <a
-                  className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/"
-                  target="_blank"
-                >
-                  <i className="lg:text-white-300  text-blue-500 fab fa-facebook text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Share</span>
-                </a>
-              </li>
-             
+              
               <li className="flex items-center">
                 <a
                   className="lg:text-white lg:hover:text-gray-800 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
@@ -96,6 +86,26 @@ export default function Navbar(props) {
                   target="_blank"
                 >
                   <i className="lg:text-white-300  text-blue-600 fab fa-twitter text-lg leading-lg " />
+                  <span className="lg:hidden inline-block ml-2">Tweets</span>
+                </a>
+              </li>
+              <li className="flex items-center">
+                <a
+                  className="lg:text-white lg:hover:text-gray-800 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href="/"
+                  target="_blank"
+                >
+                  <i className="lg:text-white-300  text-black fab fa-telegram text-lg leading-lg " />
+                  <span className="lg:hidden inline-block ml-2">Tweets</span>
+                </a>
+              </li>
+              <li className="flex items-center">
+                <a
+                  className="lg:text-white lg:hover:text-gray-800 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href="/"
+                  target="_blank"
+                >
+                  <i className="lg:text-white-300  text-red-500 fab fa-reddit text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Tweets</span>
                 </a>
               </li>
@@ -113,7 +123,7 @@ export default function Navbar(props) {
              <Link href="/auth/login" >
               <li className="flex items-center">
                 <button
-                  className="bg-blue-300 text-black active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                  className="bg-gray-400 text-blue-600 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                   type="button"
                 >
                    Login
