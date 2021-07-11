@@ -8,7 +8,7 @@ export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className=" top-0 fixed bg-blue-300 z-50 w-full flex  flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
+      <nav className="top-0 fixed bg-blue-300 z-50 w-full flex  flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between sm:w-auto md:w-auto lg:w-auto lg:static lg:block lg:justify-start">
             
@@ -86,7 +86,7 @@ export default function Navbar(props) {
                   target="_blank"
                 >
                   <i className="lg:text-white-300  text-blue-600 fab fa-twitter text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Post</span>
+                  <span className="lg:hidden inline-block ml-2"></span>
                 </a>
               </li>
               <li className="flex items-center">
@@ -96,7 +96,7 @@ export default function Navbar(props) {
                   target="_blank"
                 >
                   <i className="lg:text-white-300  text-black fab fa-telegram text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Post</span>
+                  <span className="lg:hidden inline-block ml-2"></span>
                 </a>
               </li>
               <li className="flex items-center">
@@ -106,7 +106,7 @@ export default function Navbar(props) {
                   target="_blank"
                 >
                   <i className="lg:text-white-300  text-red-500 fab fa-reddit text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Post</span>
+                  <span className="lg:hidden inline-block ml-2"></span>
                 </a>
               </li>
 
