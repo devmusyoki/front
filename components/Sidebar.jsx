@@ -39,7 +39,7 @@ function Sidebar() {
     >
        <div className="ml-4 mt-5" >
            <SchoolIcon />
-         <span class="ml-3 mt-4 text-white font-bold">LEARN
+         <span className="ml-3 mt-4 text-white font-bold">LEARN
          </span>
          
 

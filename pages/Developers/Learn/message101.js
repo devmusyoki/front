@@ -47,7 +47,7 @@ const message101 = () => {
                     <option>Php</option>
             </select>
             <div className="flex justify-center ml-6">
-                        <button class="px-9 py-2  mb-4  text-base font-semibold rounded-full block  border-b border-purple-300 bg-white hover:bg-green-300 text-black">Sign Up</button>
+                        <button className="px-9 py-2  mb-4  text-base font-semibold rounded-full block  border-b border-purple-300 bg-white hover:bg-green-300 text-black">Sign Up</button>
                     </div>
             </div>
              </section>

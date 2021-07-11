@@ -86,7 +86,7 @@ export default function Navbar(props) {
                   target="_blank"
                 >
                   <i className="lg:text-white-300  text-blue-600 fab fa-twitter text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Tweets</span>
+                  <span className="lg:hidden inline-block ml-2">Post</span>
                 </a>
               </li>
               <li className="flex items-center">
@@ -96,7 +96,7 @@ export default function Navbar(props) {
                   target="_blank"
                 >
                   <i className="lg:text-white-300  text-black fab fa-telegram text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Tweets</span>
+                  <span className="lg:hidden inline-block ml-2">Post</span>
                 </a>
               </li>
               <li className="flex items-center">
@@ -106,7 +106,7 @@ export default function Navbar(props) {
                   target="_blank"
                 >
                   <i className="lg:text-white-300  text-red-500 fab fa-reddit text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Tweets</span>
+                  <span className="lg:hidden inline-block ml-2">Post</span>
                 </a>
               </li>
 

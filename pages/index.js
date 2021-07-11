@@ -58,15 +58,14 @@ export default function Home()
          </div>
           </div>
         
-            <section className="bg-gray-100 mt-10 py-16">
+        <section className="md:mb-24 bg-gray-100 mt-10 py-16">
             <div className="container mx-auto px-4 lg:flex items-center lg:space-x-12">
-              <div className="mt-0 text-left mb-64">
-           <h1 className="text-4xl font-semibold text-gray-600">Products</h1>
-              <p className="mt-4 text-gray-600">We provide a variety of communication and payments AP products that are everything you need to build high impact mobile  engagement solutions. Our platform allows to you work on building superior customer engagement experiences without the complexity that comes from working directly  with mobile operators.</p>
+              <div className="text-left mb-96 ">
+              <h1 className="mb-20 font-sans text-black"> <p className="mb-1 font-semibold text-black">PRODUCTS</p><br/>We provide a variety of communication and payments AP products that are everything you need to build high impact mobile  engagement solutions. Our platform allows to you work on building superior customer engagement experiences without the complexity that comes from working directly  with mobile operators</h1>
+              
             </div>
             
     <div className="grid lg:grid-cols-3 mt-12 lg:mt-0 lg:gap-8">
-
     <Link href='products/Bulksms'>
       <div className="cursor-pointer group flex flex-col min-w-0 break-words bg-white mb-8 shadow-lg rounded-lg hover:bg-gray-500">
         <div className="p-6 flex-auto">

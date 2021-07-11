@@ -6,12 +6,12 @@ import Link from "next/link";
 
 function Header() {
     return <header>
-        <header class="text-gray-600 bg-blue-300 body-font">
-            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-              <a class="flex title-font font-medium items-center text-gray-900 mb-1 md:mb-0">
-                  <span class="ml-3 text-blue-800 text-xl">BONGA</span>
+        <header className="text-gray-600 bg-blue-300 body-font">
+            <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a className="flex title-font font-medium items-center text-gray-900 mb-1 md:mb-0">
+                  <span className="ml-3 text-blue-800 text-xl">BONGA</span>
               </a>
-    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+    <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
     </nav>
 
    <div className="pt-2 relative mx-auto text-gray-600">
@@ -23,9 +23,9 @@ function Header() {
   </button>
 </div>
     <Link href="/auth/login">
-    <button class="bg-blue-400 hover:bg-red-700 font-bold px-4 py-2 text-white inline-flex items-center space-x-2 rounded">
+    <button className="bg-blue-400 hover:bg-red-700 font-bold px-4 py-2 text-white inline-flex items-center space-x-2 rounded">
       <span>Sign Out</span>
-       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clipRule="evenodd"/>
       </svg>
    </button>

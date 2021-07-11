@@ -126,29 +126,6 @@ const TwoWay = () => {
   </div>
 
 </section>
-<section className= "bg-gray-100 py-10">
-<div className="mt-0">
-    <h1 className="text-4xl mb-10 font-semibold text-gray-600 text-center">All you need to build</h1>
-    </div>
-<div className="container mx-auto ml-12 px-24">
-<div className="flex flex-wrap">
-<div className="grid grid-cols-10">
-
-  <div className="col-span-5 bg-gray-500 rounded">
-    <p className="text-left">Nerd Developers</p>
-     <p className="tracking-tighter mt-4"> Airtime 101- sending airtime <br/> </p>
-      <p className="tracking-tighter mt-4">In this tutorial, we'll send our first bit of airtime with a simple script. Buckle up!
-      </p>
-      <div className="mt-12 mr-3">
-      <span className=" cursor-pointer tracking-wider text-white bg-blue-500 px-5 py-1 text-sm rounded leading-loose mx-2 font-semibold" title="">
-        Take tutorial
-       </span>
-       </div>
-  </div>
-  </div>
-</div>  
-</div>  
-</section>
 <section className="bg-gray-100 py-10">
     <div className="mt-50">
     <h1 className="text-4xl mb-10 font-semibold text-gray-600 text-center">Pricing</h1>
