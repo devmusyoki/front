@@ -58,14 +58,14 @@ export default function Home()
          </div>
           </div>
         
-        <section className="md:mb-24 bg-gray-100 mt-10 py-16">
+        <section className="md:mb-12  bg-gray-100 mt-10 py-16">
             <div className="container mx-auto px-4 lg:flex items-center lg:space-x-12">
-              <div className="text-left mb-96 ">
+              <div className="inset-x-0 top-0 text-left mb-0 lg:mb-96 xl:mb-96 2xl:mb-96 md:mb-0 sm:mb-0 ">
               <h1 className="mb-20 font-sans text-black"> <p className="mb-1 font-semibold text-black">PRODUCTS</p><br/>We provide a variety of communication and payments AP products that are everything you need to build high impact mobile  engagement solutions. Our platform allows to you work on building superior customer engagement experiences without the complexity that comes from working directly  with mobile operators</h1>
               
             </div>
             
-    <div className="grid lg:grid-cols-3 mt-12 lg:mt-0 lg:gap-8">
+    <div className="grid lg:grid-cols-3 mt-6 lg:mt-0 lg:gap-8">
     <Link href='products/Bulksms'>
       <div className="cursor-pointer group flex flex-col min-w-0 break-words bg-white mb-8 shadow-lg rounded-lg hover:bg-gray-500">
         <div className="p-6 flex-auto">
@@ -103,7 +103,7 @@ export default function Home()
             </svg>
           </div>
           <h6 className="text-xl font-semibold group-hover:text-white">USSD</h6>
-          <p className="mt-2 mb-4 text-gray-600 group-hover:text-gray-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+          <p className="mt-2 mb-4 text-gray-600 group-hover:text-gray-100">ShortCodes are special Five digit numbers, significantly shorter and easy to remember numbers unlike the normal telephone numbers eg. 22138, 21441 that are used to facilitated communication on mobile phones. Shortcodes can be configured in a number of ways depending on your desired interaction and the need of use.</p>
         </div>
       </div>
       </Link>
@@ -132,7 +132,7 @@ export default function Home()
             </svg>
           </div>
           <h6 className="text-xl font-semibold group-hover:text-white">Custom SMS Solutions</h6>
-          <p className="mt-2 mb-4 text-gray-600 group-hover:text-gray-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+          <p className="mt-2 mb-4 text-gray-600 group-hover:text-gray-100">A custom CMS is a proprietary solution that’s created exclusively for one company or use case. With a custom CMS, your business (or the service firm that built it) has control over the platform’s functionality, interface and updates.</p>
         </div>
       </div>
       </Link>

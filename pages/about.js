@@ -1,7 +1,7 @@
 import React from "react";
+import Footer from "@components/Footers/Footer"
 
-import Footer from "components/Footers/Footer";
-import Navbar from "components/Navbars/AuthNavbar.js";
+import Navbar from "@components/Navbars/AuthNavbar";
 const About = () => (
     <section>
      <Navbar />
@@ -82,7 +82,7 @@ const About = () => (
     </div>
   </div>
 </section>
-      <Footer />
+      <Footer/>
     </section>
     
 

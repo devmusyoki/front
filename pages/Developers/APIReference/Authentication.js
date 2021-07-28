@@ -1,4 +1,5 @@
-import Layout from "components/Layout";
+
+import Layout from "@components/Layout";
 import React from "react";
 import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
 import jsx from 'react-syntax-highlighter/dist/cjs/languages/prism/jsx';
@@ -9,7 +10,7 @@ SyntaxHighlighter.registerLanguage('jsx', jsx);
 
 const Authentication = () => {
     return ( 
-        <Layout>
+        < Layout >
         <section className="justify-center ml-48 mr-24 font-semibold ">
                 <h1 className="text-2xl text-black font-semibold">Authentication</h1> 
                 <p className="text-justify text-gray-900 font-thin mt-3">Requests made to our APIs must be authenticated, there are two ways to do this:

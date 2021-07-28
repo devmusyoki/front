@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "components/Footers/Footer";
 import Navbar from "components/Navbars/AuthNavbar";
 import PriceTabs from "components/PriceTabs/Index";
 
