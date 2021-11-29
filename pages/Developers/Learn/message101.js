@@ -19,7 +19,7 @@ const message101 = () => {
                     <p className="mt-3" />
                     <div className="flex py-4  text-sm text-gray-600">
                     <div className="flex-1 inline-flex items-center">
-                        <p className>In this short tutorial, you'll learn how to send an SMS with NerdScript</p>
+                        <p className>In this short tutorial, you'll learn how to send an SMS with Devmusyoki</p>
                     </div>
                     </div>
                     <div className="flex p-4 pb-2 border-t border-gray-200" />

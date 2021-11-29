@@ -18,7 +18,7 @@ const Timeline = () => {
         </div>
         <div className="pt-1 pb-8">
         <p className="mb-2 text-lg font-bold">Step 1</p>
-          <p className="mb-2 text-lg font-bold">Getting to know you</p>
+          <p className="mb-2 text-lg font-bold">GETTING TO KNOW YOU</p>
           <p className="text-gray-700">
           We love people! It's our pleasure to connect with you and learn more about your organization, staff, and specific challenges.
           </p>

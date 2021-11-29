@@ -22,7 +22,7 @@ function Header() {
     </svg>
   </button>
 </div>
-    <Link href="/auth/login">
+    <Link href="/auth/">
     <button className="bg-blue-400 hover:bg-red-700 font-bold px-4 py-2 text-white inline-flex items-center space-x-2 rounded">
       <span>Sign Out</span>
        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">

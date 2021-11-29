@@ -86,7 +86,7 @@ export default function Navbar(props) {
                   target="_blank"
                 >
                   <i className="lg:text-white-300  text-blue-600 fab fa-twitter text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2"></span>
+                  <span className="lg:hidden inline-block ml-2">Twitter</span>
                 </a>
               </li>
               <li className="flex items-center">
@@ -96,7 +96,7 @@ export default function Navbar(props) {
                   target="_blank"
                 >
                   <i className="lg:text-white-300  text-black fab fa-telegram text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2"></span>
+                  <span className="lg:hidden inline-block ml-2">Telegram</span>
                 </a>
               </li>
               <li className="flex items-center">
@@ -106,7 +106,7 @@ export default function Navbar(props) {
                   target="_blank"
                 >
                   <i className="lg:text-white-300  text-red-500 fab fa-reddit text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2"></span>
+                  <span className="lg:hidden inline-block ml-2">Reddit</span>
                 </a>
               </li>
 
@@ -123,7 +123,7 @@ export default function Navbar(props) {
              <Link href="/auth/login" >
               <li className="flex items-center">
                 <button
-                  className="bg-gray-400 text-blue-600 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                  className="text-blue-600 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                   type="button"
                 >
                    Login
